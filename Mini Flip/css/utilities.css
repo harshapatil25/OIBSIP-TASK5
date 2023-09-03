@@ -1,0 +1,10 @@
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lines{
+    text-align: center;
+    margin: 10px 0;
+    
+}

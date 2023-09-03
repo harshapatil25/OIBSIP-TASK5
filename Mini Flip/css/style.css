@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --main-bg-color: #2455f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: var(--main-bg-color);
+    /* font-family: 'Roboto', sans-serif; */
+}
+nav {
+    display: flex;
+    width: 100vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul {
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+    font-weight: bolder;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.searchbar input {
+    width: 450px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+
+
+}
+
+.searchbar img {
+    width: 17px;
+    position: relative;
+    top: 1px;
+    right: 445px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider img {
+    margin: 5px auto;
+    height: 250px;
+    width: 80vw;
+}
+.headings h2{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 8px 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 10px 10px;
+    overflow: scroll;
+}
+.cardItem {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 3px;
+   
+}
+
+
+.container {
+    min-height: calc(100vh - 8vh - 12vh);
+
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    height: 12vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}

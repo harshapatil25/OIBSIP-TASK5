@@ -1,0 +1,27 @@
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: red;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+    ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .searchbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
